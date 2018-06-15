@@ -1,0 +1,13 @@
+steps:
+- name: gcr.io/neat-vent-139904/hugo
+- name: gcr.io/neat-vent-139904/test
+  args:
+   - deploy
+   - --project
+   - site-ce15d
+  secretEnv:
+   - FIREBASE_TOKEN
+secrets:
+  - kmsKeyName: projects/neat-vent-139904/locations/global/keyRings/build-keyring/cryptoKeys/deploy
+    secretEnv:
+      FIREBASE_TOKEN: CiQAPi2Yo6ApJO4Ez0blG31ZUEk19xBdQEyICO3A1OCjpVvRbkASVgACg+475/JwBU5mjdpXY7X2crEooIQg/WIt2W87THf4StuyrbmKDihL7qpNedalIwwwCXTiqtIntHTGYj3YCZcMdigtvroTkvhZVFmqvT5Ljz5zkgjc

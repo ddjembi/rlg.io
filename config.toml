@@ -1,0 +1,62 @@
+baseURL = "https://rlg.io"
+languageCode = "en-us"
+enableRobotsTXT = true
+title = "Coding Discourse"
+theme = "cocoa"
+
+googleAnalytics = "UA-50127999-2"
+
+[permalinks]
+  blog = "/:section/:year/:month/:slug"
+  talks = "/:section/:year/:month/:slug"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "Talks"
+weight                 = -110
+identifier             = "talks"
+url                    = "/talks/"
+
+
+[params]
+include_rss            = true
+latestpostscount       = 5
+author                 = "Ross Guarino"
+cachebuster            = true
+dateform               = "2006-Jan-2"
+dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
+description            = "Coding Discourse is the personal site of Ross Guarino"
+email                  = "ross@rlg.io"
+faviconfile            = "img/leaf.ico"
+github                 = "//github.com/rlguarino"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/rlguarino"
+selfintro              = "Platform Developer/Architect"
+twitter                = "//twitter.com/0xRLG"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
