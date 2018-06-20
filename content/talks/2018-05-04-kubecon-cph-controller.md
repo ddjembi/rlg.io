@@ -12,7 +12,7 @@ Presented at [KubeCon Europe 2018][event], this talk is [our][terin] attempt to
 prove controllers are for everyone by fitting all of the important code
 snippets into one presentation.
 
-{{< speakerdeck "9947b8f52fe94e21b0e65d25441979c1" >}}
+Slides: [speakerdeck](https://speakerdeck.com/rlguarino/controllers-extending-your-kubernetes-cluster)
 
 {{< youtube "TM-2GgQ6Q2A" >}}
 
