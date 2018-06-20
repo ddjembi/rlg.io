@@ -8,4 +8,4 @@ This talk overviews a CI/CD pipeline for deploying Go code to a Kubernetes
 cluster using GitOps and Bazel, featuring hand drawn graphs.
 
 Presented at [Go-Cph](https://www.meetup.com/Go-Cph/) the slides can be found
-on [speakerdeck](https://speakerdeck.com/rlguarino/controllers-extending-your-kubernetes-cluster)
+on [speakerdeck](https://speakerdeck.com/rlguarino/continuous-delivery-with-bazel-kubernes-and-gitops)
