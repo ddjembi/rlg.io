@@ -60,3 +60,7 @@ twitter                = "//twitter.com/0xRLG"
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 90
