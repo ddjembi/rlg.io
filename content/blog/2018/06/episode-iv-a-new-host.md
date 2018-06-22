@@ -32,7 +32,7 @@ It needs to be quick — both to publish and read — I want my readers to have 
 experience that works on mobile networks.
 
 I need publishing to be automated to the "push-button" level; I want to be able to focus on the
-content over anything elase and having to jump through a hoops to publish will take away from
+content over anything elase and having to jump through hoops to publish will take away from
 the content. Writing is hard enough as it is I don't need to make it any harder.
 
 Lastly, this blog isn't making my any money so it needs to be cheap to run.
