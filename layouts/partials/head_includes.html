@@ -10,11 +10,6 @@
 </script>
 {{ end }}
 
-<!-- CSS -->
-
-{{ if .Site.Params.highlightjs }}
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/{{ .Site.Params.highlightjsStyle | default "default" }}.min.css">
-{{ end }}
 
 <!-- Fonts and icon CSS -->
 
@@ -24,7 +19,6 @@
 
     {{ $t := now }}
     <link rel="stylesheet" href="/css/reset.css?t={{$t}}">
-    <link rel="stylesheet" href="/css/pygments.css?t={{$t}}">
     <link rel="stylesheet" href="/css/main.css?t={{$t}}">
     {{range .Site.Params.extracssfiles}}
         <link rel="stylesheet" href="{{.}}?t={{$t}}">
@@ -33,7 +27,6 @@
 {{ else }}
 
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/pygments.css">
     <link rel="stylesheet" href="/css/main.css">
     {{range .Site.Params.extracssfiles}}
         <link rel="stylesheet" href="{{.}}">
