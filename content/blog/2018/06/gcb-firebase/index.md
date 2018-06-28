@@ -10,6 +10,19 @@ a build step for publishing a site to Firebase's Hosting product.
 
 I've created a custom build step for Firebase that you can use in your builds.
 
+---
+
+**edit**: Shortly after I published this a firebase builder was added to the community builders
+repository!
+
+I highly recommend you use that instead of mine. Everything in this post except the immediate code
+block is still accurate so I've left it as is.
+
+You can find the community firebase builder [here](https://github.com/GoogleCloudPlatform/cloud-
+builders-community/tree/master/firebase).
+
+---
+
 You can find the build step on GitHub at
 [github.com/0xRLG/firebase-cloud-builder](https://github.com/0xRLG/firebase-cloud-builder)
 
